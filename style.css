@@ -1,0 +1,115 @@
+body {
+  font-family: "Times, Times New Roman, serif";
+  text-align: center;
+  background-image: url("https://wallpaperaccess.com/full/1454770.jpg");
+  background-color: #491112;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 100px;
+  top: 10px;
+  position: absolute;
+  left: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.link,
+.nome {
+  border: none;
+  color: black;
+  padding: 7px 15px;
+  font-size: 13px;
+  text-align: center;
+  margin: 7px 3px;
+  border-radius: 7px;
+  font-family: "Times, Times New Roman, serif";
+  min-width: 170px;
+  background-color: #EEE9E9;
+}
+.button {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  background-color: #CDC5BF;
+  font-family: "Times, Times New Roman, serif";
+  min-width: 120px;
+  text-align: center;
+  margin: 4px 3px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #EEE9E9;
+  opacity: 0.7;
+}
+
+body > img {
+  margin: 6px 10px;
+}
+
+.divFilmes > img {
+  max-height: 200px;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin: 20px 10px 10px;
+}
+
+.divFilmes > img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.divFilmes {
+  display: inline-table;
+  width: 25%;
+}
+
+.divFilmes2 > img {
+  max-height: 200px;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin: 20px 10px 10px;
+}
+
+.divFilmes2 > img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+  color: #778899;
+}
+
+.listaFilmes {
+  font-size: 16px;
+  color: #778899;
+  font-weight: 600;
+}
